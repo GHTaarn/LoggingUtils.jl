@@ -1,0 +1,13 @@
+name = "LoggingUtils"
+uuid = "a09d5414-a7d5-4026-ae9a-527233062b88"
+authors = ["GHTaarn <62629455+GHTaarn@users.noreply.github.com>"]
+version = "0.1.0-DEV"
+
+[deps]
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+[compat]
+Logging = "1"
+Reexport = "1"
+julia = "1"
