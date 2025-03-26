@@ -50,7 +50,7 @@ redirects logging to the specified logger.
 ### Caveats
 
 Both `@no_logging` and `@with_logger` use the 
-[`Logging.with_logger`](https://docs.julialang.org/en/v1/stdlib/Logging/#with_logger)
+[`Logging.with_logger`](https://docs.julialang.org/en/v1/stdlib/Logging/#Logging.with_logger)
 function internally and therefore assignments must be done externally, e.g.
 
 ```julia
