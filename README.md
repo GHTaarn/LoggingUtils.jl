@@ -14,6 +14,14 @@ using Pkg
 pkg"add https://github.com/GHTaarn/LoggingUtils.jl"
 ```
 
+or using [FreeRegistry](https://github.com/GHTaarn/FreeRegistry):
+
+```julia
+using Pkg
+pkg"registry add https://github.com/GHTaarn/FreeRegistry"
+pkg"add LoggingUtils"
+```
+
 ## Use
 
 There are two entry points, `@no_logging` and `@with_logger` which are both
